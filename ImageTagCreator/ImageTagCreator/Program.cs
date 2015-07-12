@@ -18,7 +18,7 @@ namespace ImageTagCreator
                 ".GIF",
             };
 
-            var template = "<p><img alt=\"\" src=\"/files/u/blog/maemoto/{0}/{1}\" /><br />&nbsp;</p>";
+            var template = "<p><img alt=\"\" src=\"/files/u/blog/maemoto/{0}/{1}\" /></p>";
             var currentDirectory = Path.GetFileName(Directory.GetCurrentDirectory());
             Console.WriteLine(currentDirectory);
             var files = Directory.GetFiles(Directory.GetCurrentDirectory());
